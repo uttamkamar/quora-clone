@@ -4,7 +4,6 @@ const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
 const PORT = 80;
-// const database = require('./db');
 const db = require('./db');
 const router = require('./routes');
 
