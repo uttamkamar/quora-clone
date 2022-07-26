@@ -1,8 +1,6 @@
-// user: uttam
-// pass:Uttam1234
 const mongoose = require('mongoose');
 
-// const url = 'mongodb+srv://uttam:Uttam1234@cluster0.l3wuu.mongodb.net/?retryWrites=true&w=majority';
+// const url = 'mongodb+srv://user:<password>@cluster0.l3wuu.mongodb.net/?retryWrites=true&w=majority';
 
 // module.exports.connect = () => {
 // 	mongoose
