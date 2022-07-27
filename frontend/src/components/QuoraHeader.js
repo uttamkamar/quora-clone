@@ -38,8 +38,8 @@ function QuoraHeader() {
 				.post('/api/questions', body, config)
 				.then((res) => {
 					console.log(res.data);
-					// alert(res.data.message);
-					// window.location.href = '/';
+					alert(res.data.message);
+					window.location.href = '/';
 				})
 				.catch((e) => {
 					console.log(e);
